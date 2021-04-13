@@ -1,0 +1,179 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('background.jpg');
+	background-size: cover;
+}
+
+body, html {
+	height: 100%;
+	font-family: sans-serif;
+}
+
+textarea {
+  display: block;
+  outline: none;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+table {
+    background-color: #fff;
+	border-collapse:separate;
+    border:none;
+    border-radius:10px;
+    -moz-border-radius:6px;
+	border-spacing: 0px;
+	box-shadow: 0px 2px 7px #1769a9;
+}
+
+th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+th:only-child{
+    border-radius: 10px 10px 0 0;
+}
+
+body {
+    width: 1000px;
+    margin:0 auto;
+    background-color: antiquewhite;
+	
+}
+
+tbody{
+	border-radius: 10px;
+	overflow: hidden;
+	-moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+	-o-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+	-ms-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8f6ff;
+}
+
+input[type="Submit"]:hover {
+	background-color: #5b68c1;
+}
+
+input[type="Submit"] {
+    color: white;
+    font-size: 1.0em;
+    width: 200px;
+    height: 40px;
+    background-color: #6c7ae0;
+    border-radius: 10px;
+	border: none;
+	box-shadow: 0px 2px 7px #1769a9;
+    font-weight: bold;
+    margin: 5px;
+	margin-right: 0px;
+    float: right;
+}
+
+input[type="text"],input[type="password"],textarea{
+    font-family: Garamond,Georgia,Times,"Times New Roman",serif;
+    border:1px solid;
+    background-color: #d3d8ff;
+    width: 480px;
+    padding: .5em;
+    font-size: 1.2em;
+}
+
+.figyelmeztet {
+    color: red;
+    font-size: 1.6em;
+    font-family: Garamond,Georgia,Times,"Times New Roman",serif;
+    font-weight:bold;
+
+}
+
+.siker {
+    color: blue;
+    font-family: Garamond,Georgia,Times,"Times New Roman",serif;
+    font-size: 1.6em;
+    font-weight:bold;
+}
+
+th, td {
+  font-weight: unset;
+  padding-right: 10px;
+  border: none;
+}
+
+th{
+	font-weight: bold;
+	font-family: Lato-Bold;
+	padding: 2%;
+	font-size: 18px;
+	color: #fff;
+	line-height: 1.4;
+	text-align: left;
+	background-color: #6c7ae0;
+}
+
+caption{
+    font-variant: all-small-caps;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+td{
+	font-family: Lato-Regular;
+	font-size: 15px;
+	color: #808080;
+	line-height: 1.4;
+	padding: 2%;
+}
+
+
+.MezoInfo{
+    color: #444444;
+    font-family: Garamond,Georgia,Times,"Times New Roman",serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+h1{
+	position: relative;
+	font-size: -webkit-xxx-large;
+    border-radius: 10px;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6c7ae0;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #f3f4ff;
+    box-shadow: 0px 5px 7px #1769a9;
+}
+
+#login_form {
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+label{color:#999;}
+input[type=text]:focus + label,.input-field input[type=password]:focus + label{color:#000;}
+input[type=text]:focus ,.input-field input[type=password]:focus {border-bottom:1px solid #000;box-shadow:0 1px 0 0 #000;}
+input[type=text].valid,.input-field input[type=password].valid{border-bottom:1px solid #2196F3;box-shadow:0 1px 0 0 #2196F3;}
+input[type=text].invalid,.input-field input[type=password].invalid{border-bottom:1px solid #F44336;box-shadow:0 1px 0 0 #F44336;}
+.prefix.active{color:#000;}
+
+=======
+>>>>>>> efb8b1d7408ffd46a14a331b61e98b547d60499c
